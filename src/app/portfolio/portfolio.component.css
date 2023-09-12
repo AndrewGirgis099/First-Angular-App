@@ -1,0 +1,56 @@
+.star{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+.text-home{
+  color: #2C3E50 !important;
+}
+.star::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  right: 100%;
+  top: 50%;
+  background-color: #2C3E50;
+}
+.star::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  left: 100%;
+  top: 50%;
+  background-color: #2C3E50;
+}
+
+.home-img{
+  width: 250px;
+}
+
+.bg-hover{
+  background-color: #1ABA9F !important;
+}
+
+.overlay{
+  top: 0%;
+  bottom: 0%;
+  left: 23px;
+  right: 23px;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+.overlay i{
+  font-size: 85px;
+}
+
+.img-view{
+  background-color: #1aba9f41;
+}

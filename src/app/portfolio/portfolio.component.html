@@ -1,0 +1,64 @@
+<div class="container text-center">
+  <h2 class="text-home fs-1 fw-bolder pt-4">PORTFOLIO COMPONENT</h2>
+  <div class="star px-3 py-2 "><i class="fa-solid fa-star  text-home  "></i></div>
+
+  <div class="row g-5 py-3 ">
+
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/poert1.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/port2.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/port3.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/poert1.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/port2.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+    <div class="col-lg-4 position-relative" (click)="displayView($event)">
+      <div class="rounded-3">
+        <img src="assets/images/port3.png" class="w-100 rounded-3 my-imge"  alt="">
+      </div>
+      <div class="position-absolute  overlay bg-hover rounded-3 d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-plus text-white "></i>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="vh-100 d-flex justify-content-center align-items-center img-view fixed-top d-none " (click)="removeView($event)">
+  <div class="my-img">
+    <img [src]="imgScr" width="550px" alt="">
+  </div>
+</div>
